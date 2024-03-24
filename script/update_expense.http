@@ -1,0 +1,8 @@
+PUT http://localhost:3000/v1/expenses/2
+Content-Type: application/json
+
+{
+  "amount": 80.10,
+  "description": "Compra de coisas",
+  "category": "Desnecessário"
+}
